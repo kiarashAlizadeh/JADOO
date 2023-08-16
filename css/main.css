@@ -51,14 +51,81 @@ header nav .right ul {
 header nav .right ul li {
   font-size: 1.1rem;
 }
-header nav .left {
-  z-index: 2;
-}
-header section .head-main .left .describe-header {
-  color: #DF6951;
-}
-.active-btn {
+header nav .right ul li .active-btn {
   border: 1px solid #212832;
   padding: 10px 23px;
   border-radius: 5px;
+}
+header nav .left {
+  z-index: 2;
+}
+header section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: -17px 120px;
+}
+header section .left {
+  z-index: 2;
+}
+header section .left .describe-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #DF6951;
+}
+header section .left h1 {
+  color: #181E4B;
+  font-size: 5rem;
+  font-weight: bolder;
+  margin: 14px 0px;
+  width: 600px;
+  position: relative;
+  z-index: 2;
+}
+header section .left h1 img {
+  position: absolute;
+  z-index: 1;
+  top: 44px;
+  right: 0px;
+}
+header section .left p {
+  color: #5E6282;
+  width: 450px;
+  font-size: 1rem;
+  margin: 100px 0px 40px 0px;
+}
+header section .left .header-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+header section .left .header-btn button {
+  color: white;
+  background-color: #F1A501;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+  border: none;
+}
+header section .left .header-btn button:hover {
+  cursor: pointer;
+}
+header section .left .header-btn a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  color: #686D77;
+}
+header section .left .header-btn a i {
+  color: #DF6951;
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+header section .right {
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */
