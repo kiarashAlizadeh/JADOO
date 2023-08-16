@@ -10,6 +10,10 @@
     justify-content: space-between;
 }
 
+body{
+    background-color: #e3af47db;
+    // #f6c353db
+}
 // header
 header{
     position: relative;
@@ -69,8 +73,8 @@ header{
                     img{
                         position: absolute;
                         z-index: 1;
-                        top: 44px;
-                        right: 0px;
+                        top: 55px;
+                        right: -23px;
                     }
                 }
                 p{
