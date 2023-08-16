@@ -1,0 +1,51 @@
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@mixin font {
+    font-size: 1.1rem;
+}
+
+header{
+    position: relative;
+    
+    .back-head img {
+        position: absolute;
+        top: -500%;
+        right: -3.8%;
+        z-index: 1;
+    }
+    nav{
+        @include flex-row;
+        margin: 2% 8%;
+        
+        .right{
+            @include flex-row;
+            gap: 80px;
+            z-index: 2;
+            ul {
+                @include flex-row;
+                
+                gap: 48px;
+                    li {
+                        @include font;
+                    }
+                }
+        }
+        .left{
+            z-index: 2;
+        }
+    }
+}
+.active-btn {
+    border: 1px solid #212832;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
