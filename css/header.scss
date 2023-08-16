@@ -9,17 +9,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
-@mixin font {
-    font-size: 1.1rem;
-}
+
 
 header{
     position: relative;
     
     .back-head img {
         position: absolute;
-        top: -500%;
-        right: -3.8%;
+        top: -21%;
+        right: -4%;
         z-index: 1;
     }
     nav{
@@ -35,7 +33,12 @@ header{
                 
                 gap: 48px;
                     li {
-                        @include font;
+                        font-size: 1.1rem;
+                        & .active-btn {
+                                border: 1px solid #212832;
+                                padding: 10px 23px;
+                                border-radius: 5px;
+                            }
                     }
                 }
         }
@@ -43,9 +46,70 @@ header{
             z-index: 2;
         }
     }
+    
+     section {
+        @include flex-row;
+        margin: -17px 120px; 
+            .left{
+                
+                & .describe-header {
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                        color: #DF6951;
+                
+                    }
+                h1{
+                    color: #181E4B;
+                    font-size: 5rem;
+                    font-weight: bolder;
+                    margin: 14px 0px;
+                    width: 600px;
+                    position: relative;
+                    z-index: 2;
+                    img{
+                        position: absolute;
+                        z-index: 1;
+                        top: 44px;
+                        right: 0px;
+                    }
+                }
+                p{
+                    color: #5E6282;
+                    width: 450px;
+                    font-size: 1rem;
+                    margin: 100px 0px 40px 0px;
+                }
+                & .header-btn{
+                    @include flex-row;
+                    justify-content: flex-start;
+                    & button {
+                            color: white;
+                            background-color: #F1A501;
+                            padding: 15px 20px;
+                            border-radius: 10px;
+                            margin-right: 40px;
+                            border: none;
+                            &:hover{
+                                cursor: pointer;
+                            }
+                        }
+                    a{
+                        @include flex-row;
+                        justify-content: flex-start;
+                        color: #686D77;
+                        i{
+                            color: #DF6951;
+                            font-size: 2.5rem;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                z-index: 2;
+            }
+            .right{
+                z-index: 2;
+            }
+        }
+    
 }
-.active-btn {
-    border: 1px solid #212832;
-    padding: 10px 23px;
-    border-radius: 5px;
-}
+

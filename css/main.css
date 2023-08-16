@@ -22,8 +22,8 @@ header {
 }
 header .back-head img {
   position: absolute;
-  top: -500%;
-  right: -3.8%;
+  top: -21%;
+  right: -4%;
   z-index: 1;
 }
 header nav {
@@ -54,7 +54,9 @@ header nav .right ul li {
 header nav .left {
   z-index: 2;
 }
-
+header section .head-main .left .describe-header {
+  color: #DF6951;
+}
 .active-btn {
   border: 1px solid #212832;
   padding: 10px 23px;
