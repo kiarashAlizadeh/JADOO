@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0px;
+    background-color: #e3af47db;
+     // #f6c353db
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// import sections
+
+// header
+@import './header.scss';
+
+// main section
+@import './main.scss';
