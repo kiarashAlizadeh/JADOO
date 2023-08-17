@@ -137,7 +137,7 @@ main .category {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin: 0px 60px;
+  margin: 100px 60px;
 }
 main .category .title {
   color: #5E6282;
@@ -241,5 +241,79 @@ main .category .cards .active-card {
 }
 main .category .cards .active-card img.none {
   display: block !important;
+  z-index: -1;
+}
+main .top-selling {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 100px 0px;
+}
+main .top-selling .title {
+  color: #5E6282;
+  font-size: 1rem;
+}
+main .top-selling h2 {
+  color: #14183E;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+main .top-selling .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .top-selling .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 60px;
+  position: relative;
+  width: 314px;
+  height: 500px;
+  background-color: transparent;
+}
+main .top-selling .cards .card .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 22%;
+  border-radius: 0px 0px 26px 26px;
+  margin: 20px 0px;
+  padding: 0px 30px;
+  box-shadow: 6px 11px 20px 11px rgba(0, 0, 0, 0.216);
+}
+main .top-selling .cards .card .caption .location-prise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+main .top-selling .cards .card .caption .time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .top-selling .cards .card .caption .time img {
+  margin-right: 8px;
+}
+main .top-selling .cards .card .back-card-sell {
+  position: absolute;
+  right: -69px;
   z-index: -1;
 }/*# sourceMappingURL=style.css.map */

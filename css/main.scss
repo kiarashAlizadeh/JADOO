@@ -13,12 +13,13 @@
 
 // main
 main {
+
+    // Category
     .category {
         @include flex-column;
         align-items: center;
         position: relative;
-        margin: 0px 60px;
-
+        margin: 100px 60px;
         & .title {
             color: #5E6282;
             font-size: 1rem;
@@ -40,7 +41,6 @@ main {
 
         & .cards {
             @include flex-row;
-
             & .card {
                 @include flex-column;
                 align-items: center;
@@ -146,5 +146,78 @@ main {
                 }
             }
         }
+    }
+
+    // Topselling
+    .top-selling{
+        @include flex-column;
+            align-items: center;
+            position: relative;
+            margin: 100px 0px;
+        
+            & .title {
+                color: #5E6282;
+                font-size: 1rem;
+            }
+        
+            h2 {
+                color: #14183E;
+                font-size: 3.5rem;
+                font-weight: bolder;
+                margin-top: 25px;
+                margin-bottom: 60px;
+            }
+            & .cards {
+                @include flex-row;
+
+                & .card {
+                    @include flex-column;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0px 60px;
+                    position: relative;
+                    width: 314px;
+                    height: 500px;
+                    background-color: transparent;
+
+                & .caption{
+                    @include flex-column;
+                    justify-content: center;
+
+                    position: absolute;
+                    bottom:0px;
+
+                    background-color: #ffffff;
+                    width: 100%;
+                    height: 22%;
+                    border-radius: 0px 0px 26px 26px;
+
+                    margin: 20px 0px;
+                    padding: 0px 30px;
+                    
+                    box-shadow: 6px 11px 20px 11px rgba(0, 0, 0, 0.216);
+
+                    & .location-prise{
+                        @include flex-row;
+                        margin-bottom: 15px;
+                    }
+
+                    & .time{
+                        @include flex-row;
+                        justify-content: flex-start;
+
+                        img{
+                            margin-right: 8px;
+                        }
+                    }
+
+                }
+                & .back-card-sell{
+                    position: absolute;
+                    right: -69px;
+                    z-index: -1;
+                }
+                }
+            }
     }
 }
