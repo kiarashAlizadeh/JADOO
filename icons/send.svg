@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="send" transform="translate(-103)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="18" cy="18" r="18" transform="translate(103)" fill="#f5f5f5"/>
+    <g id="send_2" data-name="send 2" transform="translate(114 12)">
+      <path id="Vector" d="M11.157.023,4.84,6.364a1.353,1.353,0,0,0-.228-.105L.442,4.848a.583.583,0,0,1,0-1.132L10.79.035A.659.659,0,0,1,11,0a.49.49,0,0,1,.158.023Z" transform="translate(1.186 1.219)" fill="#84829a"/>
+      <path id="Vector-2" data-name="Vector" d="M6.341.368,2.66,10.728a.583.583,0,0,1-.583.4.583.583,0,0,1-.583-.408L.105,6.545A1.353,1.353,0,0,0,0,6.318L6.353,0a.583.583,0,0,1-.012.368Z" transform="translate(6.405 1.657)" fill="#84829a"/>
+    </g>
+  </g>
+</svg>

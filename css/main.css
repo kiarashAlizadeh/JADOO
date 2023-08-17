@@ -183,4 +183,128 @@ main .top-selling .cards .card .back-card-sell {
   position: absolute;
   right: -69px;
   z-index: -1;
+}
+main .easy-and-fast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+main .easy-and-fast .title {
+  color: #5E6282;
+  font-size: 1.2rem;
+}
+main .easy-and-fast .left h2 {
+  color: #14183E;
+  font-size: 3rem;
+  width: 60%;
+  margin-top: 20px;
+}
+main .easy-and-fast .left .steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .easy-and-fast .left .steps .step {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+main .easy-and-fast .left .steps .step .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+main .easy-and-fast .left .steps .step .caption h3 {
+  margin: 5px 0px;
+}
+main .easy-and-fast .left .steps .step .caption p {
+  margin: 0px;
+  width: 60%;
+}
+main .easy-and-fast .right {
+  position: relative;
+}
+main .easy-and-fast .right .big-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 26px;
+  border-radius: 34px;
+  box-shadow: 11px -20px 20px 4px #a0dbff;
+}
+main .easy-and-fast .right .big-card .title-right {
+  color: #080809;
+  font-size: 1.4rem;
+  margin-top: 21px;
+  margin-bottom: 9px;
+}
+main .easy-and-fast .right .big-card .date {
+  color: #84829A;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+main .easy-and-fast .right .big-card .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 43%;
+  margin-bottom: 10px;
+}
+main .easy-and-fast .right .big-card .down {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .easy-and-fast .right .big-card .down .people-number img {
+  margin-right: 7px;
+}
+main .easy-and-fast .right .small-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 4px 7px 20px 0px #29292e;
+  padding: 20px;
+  width: 280px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 51px;
+  right: -120px;
+}
+main .easy-and-fast .right .small-card .caption-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+main .easy-and-fast .right .small-card .caption-bar .cap-status {
+  color: #84829A;
+  font-size: 1rem;
+}
+main .easy-and-fast .right .small-card .caption-bar .cap-title {
+  color: #080809;
+  margin: 7px 0px;
+  font-size: 1.3rem;
+}
+main .easy-and-fast .right .small-card .caption-bar .status-bar {
+  margin-bottom: 10px;
+}
+main .easy-and-fast .right .small-card .caption-bar .status-bar .cap-persent {
+  color: #8A79DF;
+}
+main .easy-and-fast .right .small-card .caption-bar img {
+  border: 1px solid #938a8a;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+<svg id="LEAF" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="18" cy="18" r="18" fill="#f5f5f5"/>
+  <g id="leaf_1" data-name="leaf 1" transform="translate(11 12)">
+    <g id="Group">
+      <g id="Group-2" data-name="Group">
+        <path id="Vector" d="M13.63.151C13.261.043,4.238-.855,1.07,3.426c-1.4,1.9-1.425,4.5-.07,7.727A16.264,16.264,0,0,0,.11,13.409a.456.456,0,1,0,.871.27C3.4,5.87,11.245,2.093,13.652,1.138,13.886,1.045,14.2.317,13.63.151Z" transform="translate(0.024 0)" fill="#84829a"/>
+      </g>
+    </g>
+    <g id="Group-3" data-name="Group">
+      <g id="Group-4" data-name="Group">
+        <path id="Vector-2" data-name="Vector" d="M0,9.833a9.984,9.984,0,0,0,3.827.829,6.455,6.455,0,0,0,2.987-.68,6.133,6.133,0,0,0,3.12-5.068A27.5,27.5,0,0,1,10.857,0C8.262,1.2,2.7,4.3,0,9.833Z" transform="translate(2.472 2.297)" fill="#84829a"/>
+      </g>
+    </g>
+  </g>
+</svg>

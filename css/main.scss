@@ -220,4 +220,120 @@ main {
                 }
             }
     }
+
+    // Easy and Fast
+    .easy-and-fast{
+        & .title{
+            color: #5E6282;
+            font-size: 1.2rem;
+        }
+    
+        @include flex-row;
+        justify-content: center;
+        & .left{
+            h2{
+                color: #14183E;
+                font-size: 3rem;
+                width: 60%;
+                margin-top: 20px;
+            }
+
+            & .steps{
+                @include flex-column;
+                & .step{
+                    @include flex-row;
+                    justify-content: flex-start;
+                    margin-bottom: 50px;
+                    & .caption{
+                        @include flex-column;
+                        margin-left: 20px;
+
+                        h3{
+                            margin: 5px 0px;
+                        }
+                        p{
+                            margin: 0px;
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        & .right{
+            position: relative;
+            & .big-card{
+                @include flex-column;
+                background-color: white;
+                padding: 26px;
+                border-radius: 34px;
+                box-shadow: 11px -20px 20px 4px #a0dbff;
+                
+                & .title-right{
+                    color: #080809;
+                    font-size: 1.4rem;
+                    margin-top: 21px;
+                    margin-bottom: 9px;
+                }
+                & .date{
+                    color: #84829A;
+                    font-size: 1rem;
+                    margin-bottom: 10px;
+                }
+                & .icons{
+                    @include flex-row;
+                    width: 43%;
+                    margin-bottom: 10px;
+                }
+                & .down{
+                    @include flex-row;
+                    & .people-number{
+                        img{
+                            margin-right: 7px;
+                        }
+                    }
+                }
+            }
+
+            & .small-card{
+                @include flex-row; 
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                background-color: white;
+                box-shadow: 4px 7px 20px 0px #29292e;
+                padding: 20px;
+                width: 280px;
+                border-radius: 16px;
+                
+                position: absolute;
+                bottom: 51px;
+                right: -120px;
+                & .caption-bar{
+                    @include flex-column;
+                    margin-left: 10px;
+                    & .cap-status{
+                        color: #84829A;
+                        font-size: 1rem;
+                    }
+                    & .cap-title{
+                        color: #080809;
+                        margin: 7px 0px;
+                        font-size: 1.3rem;
+                    }
+                    & .status-bar{
+                        margin-bottom: 10px;
+                        & .cap-persent{
+                            color: #8A79DF;
+                        }
+                    }
+                    img{
+                        border: 1px solid #938a8a;
+                        border-radius:5px;
+                    }
+                }
+            }
+        }
+    }
 }
