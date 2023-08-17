@@ -336,4 +336,14 @@ main {
             }
         }
     }
+
+    // brands
+    .brands{
+        @include flex-row;
+        justify-content: center;
+        margin: 16px 0px;
+        img{
+            margin-right: 141px;
+        }
+    }
 }

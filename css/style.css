@@ -441,6 +441,17 @@ main .easy-and-fast .right .small-card .caption-bar img {
   border: 1px solid #938a8a;
   border-radius: 5px;
 }
+main .brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0px;
+}
+main .brands img {
+  margin-right: 141px;
+}
 
 footer {
   display: flex;
