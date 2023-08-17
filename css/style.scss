@@ -5,9 +5,8 @@
 body {
     font-size: 16px;
     margin: 0px;
-    background-color: #18b0e8db;
-     // #f6c353db
-    
+    background-color: #53a0bb;
+     // #f6c353db 
 }
 
 a {
@@ -22,10 +21,12 @@ ul{
 
 // @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-// import sections
-
+// import sections >>
 // header
 @import './header.scss';
 
 // main section
 @import './main.scss';
+
+// footer
+@import './footer.scss';

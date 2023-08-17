@@ -1,0 +1,123 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 111px 0px 61px 0px;
+  background-color: #FFF1DA;
+  border-radius: 64px 64px 0px 0px;
+  margin-top: 50px;
+}
+footer .main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+footer .main-footer .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .main-footer .left .site-name {
+  color: #181E4B;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+footer .main-footer .left p {
+  color: #5E6282;
+  width: 245px;
+}
+footer .main-footer .mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 74px;
+}
+footer .main-footer .mid .company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 25px;
+}
+footer .main-footer .mid .company .mid-title {
+  color: #080809;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+footer .main-footer .mid .company a {
+  margin-bottom: 10px;
+  color: #5E6282;
+  font-size: 1.1rem;
+}
+footer .main-footer .mid .Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 25px;
+}
+footer .main-footer .mid .Contact .mid-title {
+  color: #080809;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+footer .main-footer .mid .Contact a {
+  margin-bottom: 10px;
+  color: #5E6282;
+  font-size: 1.1rem;
+}
+footer .main-footer .mid .More {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 25px;
+}
+footer .main-footer .mid .More .mid-title {
+  color: #080809;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+footer .main-footer .mid .More a {
+  margin-bottom: 10px;
+  color: #5E6282;
+  font-size: 1.1rem;
+}
+footer .main-footer .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .main-footer .right .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .main-footer .right .icons i {
+  padding: 16px;
+  border-radius: 32px;
+  color: #080809;
+  box-shadow: 2px 1px 20px 7px rgba(0, 0, 0, 0.11);
+}
+footer .main-footer .right .text {
+  color: #5E6282;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+footer .main-footer .right .app-dowload {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .copy-right {
+  color: #5E6282;
+  font-size: 1rem;
+}/*# sourceMappingURL=footer.css.map */

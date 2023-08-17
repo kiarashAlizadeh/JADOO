@@ -1,0 +1,99 @@
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+@mixin footer-titles{
+    @include flex-column;
+        margin: 0px 25px;
+    
+        & .mid-title {
+            color: #080809;
+            font-size: 1.4rem;
+            margin-bottom: 25px;
+            font-weight: bolder;
+        }
+    
+        a {
+            margin-bottom: 10px;
+            color: #5E6282;
+            font-size: 1.1rem;
+        }
+}
+
+// footer
+footer{
+    @include flex-column;
+    align-items: center;
+    padding: 111px 0px 61px 0px;
+    background-color: #FFF1DA;
+    border-radius: 64px 64px 0px 0px;
+    margin-top: 50px;
+
+    .main-footer{
+        @include flex-row;
+        align-items: flex-start;
+        margin-bottom: 50px;
+        
+        & .left{
+            @include flex-column;
+            & .site-name{
+                color: #181E4B;
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+            p{
+              color: #5E6282;
+              width: 245px;
+            }
+        }
+        & .mid{
+            @include flex-row;
+            margin: 0px 74px;
+            & .company{
+                @include footer-titles;
+                
+            }
+            & .Contact{
+                @include footer-titles;
+            }
+            & .More{
+                @include footer-titles;
+            }
+        }
+        & .right{
+            @include flex-column;
+          & .icons{
+            @include flex-row;
+            i{
+                padding: 16px;
+                border-radius: 32px;
+                color: #080809;
+                box-shadow: 2px 1px 20px 7px rgb(0 0 0 / 11%);
+            }
+          } 
+          & .text{
+            color: #5E6282;
+            font-size: 1.1rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+          } 
+          & .app-dowload{
+            @include flex-row;
+          }
+        }
+    }
+    .copy-right{
+        color: #5E6282;
+        font-size: 1rem;
+    }
+}
