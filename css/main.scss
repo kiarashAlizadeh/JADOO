@@ -461,9 +461,71 @@ main {
     .brands{
         @include flex-row;
         justify-content: center;
-        margin: 16px 0px;
+        margin: 113px 0px;
         img{
             margin-right: 141px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+
+    // Subscribe
+    .subscribe{
+        @include flex-column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+        height: 407px;
+        // width: 1257px;
+        background-image: url("../images/back-subscribe.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        margin: 125px 0px;
+        #send{
+            position: absolute;
+            top: -16px;
+            right: 289px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 2.3rem;
+            margin-bottom: 71px;
+            text-align: center;
+            width: 758px;
+        }
+        form{
+            @include flex-row;
+            position: relative;
+            input{
+                padding: 16px 27px;
+                width: 300px;
+                margin-right: 20px;
+                border-radius: 5px;
+                border: none;
+            }
+            .icon {
+                background: url("../icons/email.svg") no-repeat left;
+                background-size: 20px;
+                background-color: white;
+            }
+            button{
+               background-color: #e66465;
+               color: white;
+               border: none;
+               padding: 16px 26px;
+               border-radius: 10px;
+               font-weight: bolder;
+               font-size: 1.1rem;
+            }
+        }
+    
+        #p2{
+            position: absolute;
+            bottom: -68px;
+            right: 213px;
         }
     }
 }
