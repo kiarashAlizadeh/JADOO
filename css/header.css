@@ -47,13 +47,15 @@ header section {
   align-items: center;
   margin: -17px 120px;
 }
+header section .left {
+  z-index: 2;
+}
 header section .left .describe-header {
   font-size: 1.5rem;
   font-weight: bold;
   color: #DF6951;
-  z-index: 2;
 }
-header section .left .describe-header h1 {
+header section .left h1 {
   color: #181E4B;
   font-size: 5rem;
   font-weight: bolder;
@@ -62,26 +64,26 @@ header section .left .describe-header h1 {
   position: relative;
   z-index: 2;
 }
-header section .left .describe-header h1 img {
+header section .left h1 img {
   position: absolute;
   z-index: 1;
   top: 55px;
   right: -23px;
 }
-header section .left .describe-header p {
+header section .left p {
   color: #5E6282;
   width: 450px;
   font-size: 1rem;
   margin: 100px 0px 40px 0px;
 }
-header section .left .describe-header .header-btn {
+header section .left .header-btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   justify-content: flex-start;
 }
-header section .left .describe-header .header-btn button {
+header section .left .header-btn button {
   color: white;
   background-color: #F1A501;
   padding: 15px 20px;
@@ -89,10 +91,10 @@ header section .left .describe-header .header-btn button {
   margin-right: 40px;
   border: none;
 }
-header section .left .describe-header .header-btn button:hover {
+header section .left .header-btn button:hover {
   cursor: pointer;
 }
-header section .left .describe-header .header-btn a {
+header section .left .header-btn a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,11 +102,11 @@ header section .left .describe-header .header-btn a {
   justify-content: flex-start;
   color: #686D77;
 }
-header section .left .describe-header .header-btn a i {
+header section .left .header-btn a i {
   color: #DF6951;
   font-size: 2.5rem;
   margin-right: 10px;
 }
-header section .left .right {
+header section .right {
   z-index: 2;
 }/*# sourceMappingURL=header.css.map */

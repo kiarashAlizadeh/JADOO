@@ -47,66 +47,66 @@ header{
         }
     }
     
-     section {
+    section {
         @include flex-row;
         margin: -17px 120px; 
-            .left{
-                
-                & .describe-header {
-                        font-size: 1.5rem;
-                        font-weight: bold;
-                        color: #DF6951;
-                h1{
-                    color: #181E4B;
-                    font-size: 5rem;
-                    font-weight: bolder;
-                    margin: 14px 0px;
-                    width: 595px;
-                    position: relative;
-                    z-index: 2;
-                    img{
-                        position: absolute;
-                        z-index: 1;
-                        top: 55px;
-                        right: -23px;
+        .left{
+            
+            & .describe-header{
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #DF6951;
+            }
+            h1{
+                color: #181E4B;
+                font-size: 5rem;
+                font-weight: bolder;
+                margin: 14px 0px;
+                width: 595px;
+                position: relative;
+                z-index: 2;
+                img{
+                    position: absolute;
+                    z-index: 1;
+                    top: 55px;
+                    right: -23px;
+                }
+            }
+            p{
+                color: #5E6282;
+                width: 450px;
+                font-size: 1rem;
+                margin: 100px 0px 40px 0px;
+            }
+            & .header-btn{
+                @include flex-row;
+                justify-content: flex-start;
+                & button {
+                        color: white;
+                        background-color: #F1A501;
+                        padding: 15px 20px;
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        border: none;
+                        &:hover{
+                            cursor: pointer;
+                        }
                     }
-                }
-                p{
-                    color: #5E6282;
-                    width: 450px;
-                    font-size: 1rem;
-                    margin: 100px 0px 40px 0px;
-                }
-                & .header-btn{
+                a{
                     @include flex-row;
                     justify-content: flex-start;
-                    & button {
-                            color: white;
-                            background-color: #F1A501;
-                            padding: 15px 20px;
-                            border-radius: 10px;
-                            margin-right: 40px;
-                            border: none;
-                            &:hover{
-                                cursor: pointer;
-                            }
-                        }
-                    a{
-                        @include flex-row;
-                        justify-content: flex-start;
-                        color: #686D77;
-                        i{
-                            color: #DF6951;
-                            font-size: 2.5rem;
-                            margin-right: 10px;
-                        }
+                    color: #686D77;
+                    i{
+                        color: #DF6951;
+                        font-size: 2.5rem;
+                        margin-right: 10px;
                     }
                 }
-                z-index: 2;
             }
-            .right{
-                z-index: 2;
-            }
+            z-index: 2;
+        }
+        .right{
+            z-index: 2;
         }
     }
 }
