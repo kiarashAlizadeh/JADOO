@@ -308,6 +308,123 @@ main .easy-and-fast .right .small-card .caption-bar img {
   border: 1px solid #938a8a;
   border-radius: 5px;
 }
+main .testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0px;
+}
+main .testimonials .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+main .testimonials .left .descreption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .testimonials .left .descreption .title {
+  color: #5E6282;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+main .testimonials .left .descreption .second-title {
+  color: #14183E;
+  font-size: 3rem;
+  font-weight: bolder;
+  width: 365px;
+  margin-bottom: 35%;
+}
+main .testimonials .left .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .testimonials .left .buttons .btn-active {
+  color: #39425D;
+}
+main .testimonials .left .buttons i {
+  margin-right: 20px;
+  color: #E5E5E5;
+  cursor: pointer;
+}
+main .testimonials .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .testimonials .right .comments {
+  position: relative;
+}
+main .testimonials .right .comments .active-comment {
+  position: absolute;
+  top: 120px;
+  left: -38px;
+  z-index: 2;
+  background-color: #FFFFFF !important;
+  box-shadow: 12px 15px 20px 5px rgba(0, 0, 0, 0.5490196078);
+}
+main .testimonials .right .comments .comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #bccbd8;
+  width: 475px;
+  border-radius: 18px;
+  padding: 30px;
+  position: relative;
+}
+main .testimonials .right .comments .comment .profile-pic {
+  position: absolute;
+  top: -42px;
+  left: -40px;
+}
+main .testimonials .right .comments .comment .profile-pic img {
+  border-radius: 88px;
+  width: 76px;
+}
+main .testimonials .right .comments .comment q {
+  color: #5E6282;
+  font-size: 1.1rem;
+  margin-bottom: 33px;
+}
+main .testimonials .right .comments .comment .name {
+  color: #5E6282;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+main .testimonials .right .comments .comment .location {
+  color: #5E6282;
+  font-size: 1rem;
+  font-weight: normal;
+}
+main .testimonials .right .comment-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 55px;
+}
+main .testimonials .right .comment-button .activ-btn {
+  color: #3E2E4D;
+}
+main .testimonials .right .comment-button i {
+  color: #BCB7C2;
+  margin: 23px 0px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
 main .brands {
   display: flex;
   flex-direction: row;

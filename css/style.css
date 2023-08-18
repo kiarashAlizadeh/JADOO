@@ -67,43 +67,41 @@ header section {
   align-items: center;
   margin: -17px 120px;
 }
-header section .left {
-  z-index: 2;
-}
 header section .left .describe-header {
   font-size: 1.5rem;
   font-weight: bold;
   color: #DF6951;
+  z-index: 2;
 }
-header section .left h1 {
+header section .left .describe-header h1 {
   color: #181E4B;
   font-size: 5rem;
   font-weight: bolder;
   margin: 14px 0px;
-  width: 600px;
+  width: 595px;
   position: relative;
   z-index: 2;
 }
-header section .left h1 img {
+header section .left .describe-header h1 img {
   position: absolute;
   z-index: 1;
   top: 55px;
   right: -23px;
 }
-header section .left p {
+header section .left .describe-header p {
   color: #5E6282;
   width: 450px;
   font-size: 1rem;
   margin: 100px 0px 40px 0px;
 }
-header section .left .header-btn {
+header section .left .describe-header .header-btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   justify-content: flex-start;
 }
-header section .left .header-btn button {
+header section .left .describe-header .header-btn button {
   color: white;
   background-color: #F1A501;
   padding: 15px 20px;
@@ -111,10 +109,10 @@ header section .left .header-btn button {
   margin-right: 40px;
   border: none;
 }
-header section .left .header-btn button:hover {
+header section .left .describe-header .header-btn button:hover {
   cursor: pointer;
 }
-header section .left .header-btn a {
+header section .left .describe-header .header-btn a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -122,12 +120,12 @@ header section .left .header-btn a {
   justify-content: flex-start;
   color: #686D77;
 }
-header section .left .header-btn a i {
+header section .left .describe-header .header-btn a i {
   color: #DF6951;
   font-size: 2.5rem;
   margin-right: 10px;
 }
-header section .right {
+header section .left .right {
   z-index: 2;
 }
 
@@ -440,6 +438,123 @@ main .easy-and-fast .right .small-card .caption-bar .status-bar .cap-persent {
 main .easy-and-fast .right .small-card .caption-bar img {
   border: 1px solid #938a8a;
   border-radius: 5px;
+}
+main .testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 65px 0px;
+}
+main .testimonials .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+main .testimonials .left .descreption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .testimonials .left .descreption .title {
+  color: #5E6282;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+main .testimonials .left .descreption .second-title {
+  color: #14183E;
+  font-size: 3rem;
+  font-weight: bolder;
+  width: 365px;
+  margin-bottom: 35%;
+}
+main .testimonials .left .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .testimonials .left .buttons .btn-active {
+  color: #39425D;
+}
+main .testimonials .left .buttons i {
+  margin-right: 20px;
+  color: #E5E5E5;
+  cursor: pointer;
+}
+main .testimonials .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .testimonials .right .comments {
+  position: relative;
+}
+main .testimonials .right .comments .active-comment {
+  position: absolute;
+  top: 120px;
+  left: -38px;
+  z-index: 2;
+  background-color: #FFFFFF !important;
+  box-shadow: 12px 15px 20px 5px rgba(0, 0, 0, 0.5490196078);
+}
+main .testimonials .right .comments .comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #bccbd8;
+  width: 475px;
+  border-radius: 18px;
+  padding: 30px;
+  position: relative;
+}
+main .testimonials .right .comments .comment .profile-pic {
+  position: absolute;
+  top: -42px;
+  left: -40px;
+}
+main .testimonials .right .comments .comment .profile-pic img {
+  border-radius: 88px;
+  width: 76px;
+}
+main .testimonials .right .comments .comment q {
+  color: #5E6282;
+  font-size: 1.1rem;
+  margin-bottom: 33px;
+}
+main .testimonials .right .comments .comment .name {
+  color: #5E6282;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+main .testimonials .right .comments .comment .location {
+  color: #5E6282;
+  font-size: 1rem;
+  font-weight: normal;
+}
+main .testimonials .right .comment-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 55px;
+}
+main .testimonials .right .comment-button .activ-btn {
+  color: #3E2E4D;
+}
+main .testimonials .right .comment-button i {
+  color: #BCB7C2;
+  margin: 23px 0px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  cursor: pointer;
 }
 main .brands {
   display: flex;

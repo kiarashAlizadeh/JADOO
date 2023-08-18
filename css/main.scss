@@ -337,6 +337,126 @@ main {
         }
     }
 
+    // Testimonials
+    .testimonials{
+        @include flex-row;
+        justify-content: center;
+        align-items: center;
+        margin: 65px 0px;
+        & .left{
+            @include flex-column;
+            margin-right: 10%;
+            & .descreption{
+                @include flex-column;
+
+                & .title{
+                    color: #5E6282;
+                    font-size: 1.3rem;
+                    margin-bottom: 15px;
+                }
+
+                & .second-title{
+                    color: #14183E;
+                    font-size: 3rem;
+                    font-weight: bolder;
+                    width: 365px;
+                    margin-bottom: 35%;
+                }
+            }
+
+            & .buttons{
+                @include flex-row;
+                justify-content: flex-start;
+
+                & .btn-active{
+                        color: #39425D;
+                }
+
+                i{
+                    margin-right: 20px;
+                    color: #E5E5E5;
+                    cursor: pointer;  
+                }
+            }
+        }
+
+        & .right{
+            @include flex-row;
+            justify-content: flex-start;
+
+            & .comments{
+                position: relative;
+
+                & .active-comment{
+                    position: absolute;
+                    top: 120px;
+                    left: -38px;
+                    z-index: 2;
+                    background-color: #FFFFFF !important;
+                    box-shadow: 12px 15px 20px 5px #0000008c;
+                    
+                }
+
+                & .comment{
+                    @include flex-column;
+                    background-color: #bccbd8;
+                    width: 475px;
+                    border-radius: 18px;
+                    padding: 30px;
+                    position: relative;
+
+                    & .profile-pic{
+                        position: absolute;
+                        top: -42px;
+                        left: -40px;
+                        img{
+                            border-radius: 88px;
+                            width: 76px;
+                        }
+                    }
+
+                    q{
+                        color: #5E6282;
+                        font-size: 1.1rem;
+                        margin-bottom: 33px;
+                    }
+
+                    & .name{
+                    color: #5E6282;
+                    font-size: 1.1rem;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    }
+
+                    & .location{
+                    color: #5E6282;
+                    font-size: 1rem;
+                    font-weight: normal;
+                    }
+                }
+            }
+
+            & .comment-button{
+                @include flex-column;
+                align-items: center;
+                margin-left: 55px;
+
+                & .activ-btn{
+                    color: #3E2E4D;
+                }
+
+                i{
+                    color: #BCB7C2;
+                    margin: 23px 0px;
+                    font-size: 1.6rem;
+                    font-weight: bolder;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
     // brands
     .brands{
         @include flex-row;
