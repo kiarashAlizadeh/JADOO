@@ -131,6 +131,24 @@ header section .right {
   z-index: 2;
 }
 
+main #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 45px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #14183e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+main #myBtn:hover {
+  background-color: #555;
+}
 main .category {
   display: flex;
   flex-direction: column;
