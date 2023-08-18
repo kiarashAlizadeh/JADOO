@@ -51,26 +51,28 @@ header{
         @include flex-row;
         margin: -17px 120px; 
         .left{
-            
+            position: relative;
+
             & .describe-header{
                 font-size: 1.5rem;
                 font-weight: bold;
                 color: #DF6951;
             }
+            
+            img{
+            position: absolute;
+            z-index: -1;
+            top: 91px;
+            right: -24px;
+            }
+            
             h1{
                 color: #181E4B;
                 font-size: 5rem;
                 font-weight: bolder;
                 margin: 14px 0px;
                 width: 595px;
-                position: relative;
                 z-index: 2;
-                img{
-                    position: absolute;
-                    z-index: 1;
-                    top: 55px;
-                    right: -23px;
-                }
             }
             p{
                 color: #5E6282;

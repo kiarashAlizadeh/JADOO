@@ -48,6 +48,7 @@ header section {
   margin: -17px 120px;
 }
 header section .left {
+  position: relative;
   z-index: 2;
 }
 header section .left .describe-header {
@@ -55,20 +56,19 @@ header section .left .describe-header {
   font-weight: bold;
   color: #DF6951;
 }
+header section .left img {
+  position: absolute;
+  z-index: -1;
+  top: 91px;
+  right: -24px;
+}
 header section .left h1 {
   color: #181E4B;
   font-size: 5rem;
   font-weight: bolder;
   margin: 14px 0px;
   width: 595px;
-  position: relative;
   z-index: 2;
-}
-header section .left h1 img {
-  position: absolute;
-  z-index: 1;
-  top: 55px;
-  right: -23px;
 }
 header section .left p {
   color: #5E6282;
