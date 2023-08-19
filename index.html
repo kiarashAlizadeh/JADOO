@@ -22,13 +22,13 @@
 
   <body>
     <!-- header -->
-    <div class="container-fluid">
+    <div class="container">
       <header>
         <div class="back-head">
           <!-- <img src="./images/back-head.svg" alt="" /> -->
         </div>
 
-        <!-- navbar -->
+        <!-- navbar (hamburger menue) -->
         <nav class="top-nav">
           <div>
             <img src="./icons/jadoo.svg" alt="Jadoo" />
@@ -42,23 +42,22 @@
             <li>Hotels</li>
             <li>Flights</li>
             <li>Booking</li>
-            <li class="active-btn">Login  |  Sign up</li>
+            <li class="active-btn">Login | Sign up</li>
             <li>
               EN
               <!-- <img src="./icons/arrow-down.svg" alt="" class="fs-a"/> -->
             </li>
           </ul>
-          
         </nav>
         <!-- main header -->
-        <section>
-          <div class="left">
-            <span class="describe-header">
+        <section class="row justify-content-center align-items-center">
+          <div class="left col-lg-4 col-md-12">
+            <span class="describe-header" id="h1-d">
               Best Destinations around the world
             </span>
-            <img src="./images/back-text-head.svg" alt="" />
-            <h1>Travel, enjoy and live a new life</h1>
-            <p>
+            <img src="./images/back-text-head.svg" alt="" class="d-none d-xl-block"/>
+            <h1 id="h1-h">Travel, enjoy and live a new life</h1>
+            <p id="h1-p">
               Built Wicket longer admire do barton vanity itself do in it.
               Preferred to sportsmen it engrossed listening. Park gate sell they
               west hard for the.
@@ -71,8 +70,8 @@
               </a>
             </div>
           </div>
-          <div class="right">
-            <!-- <img src="./images/travel-lady.svg" alt="Travel lady" /> -->
+          <div class="right col-lg-8 col-md-12 d-none d-lg-block">
+            <img src="./images/travel-lady.svg" alt="Travel lady" />
           </div>
         </section>
       </header>
