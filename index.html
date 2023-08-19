@@ -6,46 +6,50 @@
     <title>Jadoo</title>
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <!-- <link rel="stylesheet" href="./css/style.min.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/footer.css">
-    
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+
     <!-- icon -->
     <link rel="icon" type="image/x-icon" href="./icons/jadoo.svg" />
   </head>
+
   <body>
-    <div class="container">
-      <!-- header -->
+    <!-- header -->
+    <div class="container-fluid">
       <header>
         <div class="back-head">
           <!-- <img src="./images/back-head.svg" alt="" /> -->
         </div>
-  
+
         <!-- navbar -->
-        <nav>
-          <div class="left">
+        <nav class="top-nav">
+          <div>
             <img src="./icons/jadoo.svg" alt="Jadoo" />
           </div>
-          <div class="right">
-            <ul>
-              <li>Destinations</li>
-              <li>Hotels</li>
-              <li>Flights</li>
-              <li>Booking</li>
-            </ul>
-            <ul>
-              <li>Login</li>
-              <li class="active-btn">Sign up</li>
-              <li>
-                EN
-                <img src="./icons/arrow-down.svg" alt="" />
-              </li>
-            </ul>
-          </div>
+          <input id="menu-toggle" type="checkbox" />
+          <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+          </label>
+          <ul class="menu">
+            <li>Destinations</li>
+            <li>Hotels</li>
+            <li>Flights</li>
+            <li>Booking</li>
+            <li class="active-btn">Login  |  Sign up</li>
+            <li>
+              EN
+              <!-- <img src="./icons/arrow-down.svg" alt="" class="fs-a"/> -->
+            </li>
+          </ul>
+          
         </nav>
-  
         <!-- main header -->
         <section>
           <div class="left">
@@ -74,26 +78,36 @@
       </header>
     </div>
 
+    <!-- main -->
     <div class="container">
-      <!-- main -->
       <main class="justify-content-center">
-  
         <!-- up page btn -->
-        <button onclick="topFunction()" id="myBtn" title="Go to top" class="d-none d-lg-block">
+        <button
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+          class="d-none d-lg-block"
+        >
           <i class="fa-solid fa-chevron-up"></i>
         </button>
-  
+
         <!-- Category -->
         <section class="category">
           <span class="title"> CATEGORY </span>
           <h2>We Offer Best Services</h2>
-          <img src="./images/plus.svg" alt="plus" class="plus d-none d-xl-block" />
+          <img
+            src="./images/plus.svg"
+            alt="plus"
+            class="plus d-none d-xl-block"
+          />
           <div class="cards row justify-content-center">
             <div class="card col-xl-3 col-lg-6 col-md-12 mr-20">
               <img src="./images/satelite.svg" alt="satelite" />
               <img src="./images/card-pic-back.svg" alt="" id="c1" />
               <span class="card-title"> Calculated Weather </span>
-              <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+              <p>
+                Built Wicket longer admire do barton vanity itself do in it.
+              </p>
               <img src="./images/card-orange-back.svg" alt="" class="none" />
             </div>
             <div class="card active-card col-xl-3 col-lg-6 col-md-12 mr-20">
@@ -124,7 +138,7 @@
             </div>
           </div>
         </section>
-  
+
         <!-- Top selling -->
         <section class="top-selling">
           <span class="title"> Top Selling </span>
@@ -175,11 +189,11 @@
             </div>
           </div>
         </section>
-  
+
         <!-- Easy and Fast -->
         <section class="easy-and-fast row justify-content-center">
           <div class="left col-lg-6 col-md-12 justify-content-center">
-            <span class="title"> &nbsp &nbsp Easy and Fast </span> </br>
+            <span class="title"> &nbsp &nbsp Easy and Fast </span> <br />
             <h2>Book Your Next Trip In 3 Easy Steps</h2>
             <div class="steps">
               <div class="step">
@@ -187,8 +201,8 @@
                 <span class="caption">
                   <h3>Choose Destination</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                    tortor tempus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
                   </p>
                 </span>
               </div>
@@ -197,8 +211,8 @@
                 <span class="caption">
                   <h3>Make Payment</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                    tortor tempus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
                   </p>
                 </span>
               </div>
@@ -207,14 +221,14 @@
                 <span class="caption">
                   <h3>Reach Airport on Selected Date</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                    tortor tempus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
                   </p>
                 </span>
               </div>
             </div>
           </div>
-  
+
           <div class="right col-lg-6 col-md-12">
             <div class="big-card">
               <img src="./images/trip-greece.svg" alt="Trip to Greece" />
@@ -249,7 +263,7 @@
             </span>
           </div>
         </section>
-  
+
         <!-- Testimonials -->
         <section class="testimonials row justify-content-center">
           <div class="left col-lg-6 col-md-12 justify-content-center">
@@ -298,14 +312,14 @@
             </span>
           </div>
         </section>
-  
+
         <!-- brands -->
         <section class="brands row justify-content-center align-items-center">
           <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
-            <img src="./images/axon.svg" alt="axon" class=""/>
+            <img src="./images/axon.svg" alt="axon" class="" />
           </span>
           <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
-            <img src="./images/jetstar.svg" alt="jetstar" class=""/>
+            <img src="./images/jetstar.svg" alt="jetstar" class="" />
           </span>
           <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
             <img src="./images/expedia.svg" alt="expedia" />
@@ -317,7 +331,7 @@
             <img src="./images/alitalia.svg" alt="alitalia" />
           </span>
         </section>
-  
+
         <!-- Subscribe -->
         <!-- <section class="subscribe">
           <img src="./images/send-pic.svg" alt="" id="send" />
@@ -342,8 +356,8 @@
       </main>
     </div>
 
+    <!-- footer -->
     <div class="container-fluid">
-      <!-- footer -->
       <footer class="justify-content-center container-fluid">
         <div class="main-footer row align-items-center">
           <div class="left col-lg-2 col-sm-12 align-items-center">
