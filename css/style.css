@@ -671,7 +671,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 111px 0px 61px 0px;
-  background-color: #FFF1DA;
+  background-color: #fff1da;
   border-radius: 64px 64px 0px 0px;
   margin-top: 50px;
 }
@@ -689,71 +689,95 @@ footer .main-footer .left {
   justify-content: space-between;
 }
 footer .main-footer .left .site-name {
-  color: #181E4B;
+  color: #181e4b;
   font-size: 3rem;
   font-weight: bolder;
 }
 footer .main-footer .left p {
-  color: #5E6282;
-  width: 245px;
+  color: #5e6282;
+  max-width: 245px;
+}
+@media only screen and (max-width: 800px) {
+  footer .main-footer .left {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  footer .main-footer .mid {
+    margin-bottom: 38px;
+  }
+  footer .main-footer .company {
+    margin: 0px 0px !important;
+  }
+  footer .main-footer .Contact {
+    margin: 0px 0px !important;
+  }
+  footer .main-footer .More {
+    margin: 0px 0px !important;
+  }
 }
 footer .main-footer .mid {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 74px;
 }
 footer .main-footer .mid .company {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px 25px;
 }
 footer .main-footer .mid .company .mid-title {
   color: #080809;
   font-size: 1.4rem;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-weight: bolder;
+  text-align: center;
 }
 footer .main-footer .mid .company a {
   margin-bottom: 10px;
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
+  text-align: center;
 }
 footer .main-footer .mid .Contact {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px 25px;
 }
 footer .main-footer .mid .Contact .mid-title {
   color: #080809;
   font-size: 1.4rem;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-weight: bolder;
+  text-align: center;
 }
 footer .main-footer .mid .Contact a {
   margin-bottom: 10px;
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
+  text-align: center;
 }
 footer .main-footer .mid .More {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px 25px;
 }
 footer .main-footer .mid .More .mid-title {
   color: #080809;
   font-size: 1.4rem;
-  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-weight: bolder;
+  text-align: center;
 }
 footer .main-footer .mid .More a {
   margin-bottom: 10px;
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
+  text-align: center;
 }
 footer .main-footer .right {
   display: flex;
@@ -765,26 +789,30 @@ footer .main-footer .right .icons {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 footer .main-footer .right .icons i {
   padding: 16px;
   border-radius: 32px;
   color: #080809;
   box-shadow: 2px 1px 20px 7px rgba(0, 0, 0, 0.11);
+  margin-right: 12px;
 }
 footer .main-footer .right .text {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
   margin-top: 25px;
   margin-bottom: 15px;
+  text-align: center;
 }
 footer .main-footer .right .app-dowload {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 footer .copy-right {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
