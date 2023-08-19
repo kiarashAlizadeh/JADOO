@@ -164,12 +164,25 @@ header section .left .describe-header {
 header section .left img {
   position: absolute;
   z-index: -1;
-  top: 91px;
-  right: -24px;
+  top: 100px;
+  right: -206px;
 }
 @media only screen and (max-width: 800px) {
-  header section .left .head-header {
+  header section .left #h1-d {
+    font-size: 1rem;
+    max-width: 85%;
+  }
+  header section .left #h1-h {
     font-size: 2rem;
+    text-align: start;
+    max-width: 95%;
+    margin-bottom: 50px !important;
+  }
+  header section .left #h1-p {
+    font-size: 1rem;
+    text-align: start;
+    max-width: 95%;
+    margin: 0px 0px 35px 0px !important;
   }
 }
 header section .left h1 {
