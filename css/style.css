@@ -131,6 +131,9 @@ header section .right {
   z-index: 2;
 }
 
+main section {
+  margin: 77px 0px;
+}
 main #myBtn {
   display: none;
   position: fixed;
@@ -146,7 +149,7 @@ main #myBtn {
   border-radius: 50px;
   font-size: 1.5rem;
 }
-main #myBtn:hover {
+main #myBtn :hover {
   background-color: #555;
 }
 main .category {
@@ -155,18 +158,18 @@ main .category {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin: 100px 60px;
 }
 main .category .title {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1rem;
 }
 main .category h2 {
-  color: #14183E;
+  color: #14183e;
   font-size: 3.5rem;
   font-weight: bolder;
   margin-top: 25px;
   margin-bottom: 60px;
+  text-align: center;
 }
 main .category .plus {
   position: absolute;
@@ -184,11 +187,13 @@ main .category .cards .card {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 60px;
+  margin: 14px 5px;
   border-radius: 40px;
   padding: 45px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  max-width: 262px;
+  max-height: 330px;
 }
 main .category .cards .card img {
   width: 70px;
@@ -204,12 +209,12 @@ main .category .cards .card #setting {
   width: 50px;
 }
 main .category .cards .card .card-title {
-  color: #1E1D4C;
+  color: #1e1d4c;
   font-size: 1.5rem;
   margin: 25px 0px;
 }
 main .category .cards .card p {
-  color: #5E6282;
+  color: #5e6282;
   width: 170px;
   z-index: 1;
 }
@@ -228,8 +233,8 @@ main .category .cards .card #c2 {
 main .category .cards .card #c3 {
   position: absolute;
   z-index: 0;
-  top: 0px;
-  right: 0px;
+  top: 24px;
+  right: 12px;
 }
 main .category .cards .card #c4 {
   position: absolute;
@@ -241,7 +246,7 @@ main .category .cards .card .none {
   display: none;
   position: absolute;
   bottom: -22px;
-  left: -24px;
+  left: -10px;
   z-index: -1;
 }
 main .category .cards .card:hover {
@@ -254,7 +259,7 @@ main .category .cards .card:hover img.none {
 }
 main .category .cards .active-card {
   background-color: rgba(233, 233, 233, 0.885);
-  box-shadow: 9px 13px 20px 20px rgba(0, 0, 0, 0.216);
+  box-shadow: 9px 12px 20px 3px rgba(0, 0, 0, 0.216);
   z-index: 1;
 }
 main .category .cards .active-card img.none {
@@ -267,18 +272,18 @@ main .top-selling {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin: 100px 0px;
 }
 main .top-selling .title {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1rem;
 }
 main .top-selling h2 {
-  color: #14183E;
+  color: #14183e;
   font-size: 3.5rem;
   font-weight: bolder;
   margin-top: 25px;
   margin-bottom: 60px;
+  text-align: center;
 }
 main .top-selling .cards {
   display: flex;
@@ -297,6 +302,7 @@ main .top-selling .cards .card {
   width: 314px;
   height: 500px;
   background-color: transparent;
+  border: none;
 }
 main .top-selling .cards .card .caption {
   display: flex;
@@ -343,14 +349,15 @@ main .easy-and-fast {
   justify-content: center;
 }
 main .easy-and-fast .title {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.2rem;
 }
 main .easy-and-fast .left h2 {
-  color: #14183E;
+  color: #14183e;
   font-size: 3rem;
-  width: 60%;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 main .easy-and-fast .left .steps {
   display: flex;
@@ -397,7 +404,7 @@ main .easy-and-fast .right .big-card .title-right {
   margin-bottom: 9px;
 }
 main .easy-and-fast .right .big-card .date {
-  color: #84829A;
+  color: #84829a;
   font-size: 1rem;
   margin-bottom: 10px;
 }
@@ -441,7 +448,7 @@ main .easy-and-fast .right .small-card .caption-bar {
   margin-left: 10px;
 }
 main .easy-and-fast .right .small-card .caption-bar .cap-status {
-  color: #84829A;
+  color: #84829a;
   font-size: 1rem;
 }
 main .easy-and-fast .right .small-card .caption-bar .cap-title {
@@ -453,7 +460,7 @@ main .easy-and-fast .right .small-card .caption-bar .status-bar {
   margin-bottom: 10px;
 }
 main .easy-and-fast .right .small-card .caption-bar .status-bar .cap-persent {
-  color: #8A79DF;
+  color: #8a79df;
 }
 main .easy-and-fast .right .small-card .caption-bar img {
   border: 1px solid #938a8a;
@@ -466,13 +473,11 @@ main .testimonials {
   align-items: center;
   justify-content: center;
   align-items: center;
-  margin: 65px 0px;
 }
 main .testimonials .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 10%;
 }
 main .testimonials .left .descreption {
   display: flex;
@@ -480,16 +485,23 @@ main .testimonials .left .descreption {
   justify-content: space-between;
 }
 main .testimonials .left .descreption .title {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.3rem;
   margin-bottom: 15px;
 }
+@media only screen and (max-width: 800px) {
+  main .testimonials .left .descreption .second-title {
+    font-size: 1.5rem !important;
+    margin-bottom: 15% !important;
+  }
+}
 main .testimonials .left .descreption .second-title {
-  color: #14183E;
+  color: #14183e;
   font-size: 3rem;
   font-weight: bolder;
   width: 365px;
   margin-bottom: 35%;
+  text-align: center;
 }
 main .testimonials .left .buttons {
   display: flex;
@@ -499,11 +511,11 @@ main .testimonials .left .buttons {
   justify-content: flex-start;
 }
 main .testimonials .left .buttons .btn-active {
-  color: #39425D;
+  color: #39425d;
 }
 main .testimonials .left .buttons i {
   margin-right: 20px;
-  color: #E5E5E5;
+  color: #e5e5e5;
   cursor: pointer;
 }
 main .testimonials .right {
@@ -516,20 +528,34 @@ main .testimonials .right {
 main .testimonials .right .comments {
   position: relative;
 }
-main .testimonials .right .comments .active-comment {
-  position: absolute;
-  top: 120px;
-  left: -38px;
-  z-index: 2;
-  background-color: #FFFFFF !important;
-  box-shadow: 12px 15px 20px 5px rgba(0, 0, 0, 0.5490196078);
+@media only screen and (min-width: 800px) {
+  main .testimonials .right .comments .active-comment {
+    position: absolute;
+    top: 120px;
+    left: -38px;
+    z-index: 2;
+    background-color: #ffffff !important;
+    box-shadow: 12px 15px 20px 5px rgba(0, 0, 0, 0.5490196078);
+  }
+}
+@media only screen and (max-width: 800px) {
+  main .testimonials .right .comments .active-comment {
+    background-color: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.5490196078);
+    margin-bottom: 46px;
+    margin-top: 55px;
+  }
+  main .testimonials .right .comments .profile-pic {
+    top: -42px !important;
+    left: 10px !important;
+  }
 }
 main .testimonials .right .comments .comment {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #bccbd8;
-  width: 475px;
+  max-width: 475px;
   border-radius: 18px;
   padding: 30px;
   position: relative;
@@ -544,18 +570,18 @@ main .testimonials .right .comments .comment .profile-pic img {
   width: 76px;
 }
 main .testimonials .right .comments .comment q {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
   margin-bottom: 33px;
 }
 main .testimonials .right .comments .comment .name {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1.1rem;
   margin-bottom: 10px;
   font-weight: bold;
 }
 main .testimonials .right .comments .comment .location {
-  color: #5E6282;
+  color: #5e6282;
   font-size: 1rem;
   font-weight: normal;
 }
@@ -567,28 +593,18 @@ main .testimonials .right .comment-button {
   margin-left: 55px;
 }
 main .testimonials .right .comment-button .activ-btn {
-  color: #3E2E4D;
+  color: #3e2e4d;
 }
 main .testimonials .right .comment-button i {
-  color: #BCB7C2;
+  color: #bcb7c2;
   margin: 23px 0px;
   font-size: 1.6rem;
   font-weight: bolder;
   cursor: pointer;
 }
-main .brands {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-  margin: 113px 0px;
-}
-main .brands img {
-  margin-right: 141px;
-}
-main .brands img:last-child {
-  margin-right: 0px;
+main .brands span {
+  text-align: center;
+  margin-bottom: 40px;
 }
 main .subscribe {
   display: flex;
@@ -602,7 +618,6 @@ main .subscribe {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  margin: 125px 0px;
 }
 main .subscribe #send {
   position: absolute;

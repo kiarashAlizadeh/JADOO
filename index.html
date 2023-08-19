@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jadoo</title>
 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="./css/style.min.css" /> -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <link rel="stylesheet" href="./css/main.css" />
-
+    
     <!-- icon -->
     <link rel="icon" type="image/x-icon" href="./icons/jadoo.svg" />
   </head>
-  <body>
+  <body class="container">
     <!-- header -->
     <header>
       <div class="back-head">
-        <img src="./images/back-head.svg" alt="" />
+        <!-- <img src="./images/back-head.svg" alt="" /> -->
       </div>
 
       <!-- navbar -->
@@ -64,15 +66,16 @@
           </div>
         </div>
         <div class="right">
-          <img src="./images/travel-lady.svg" alt="Travel lady" />
+          <!-- <img src="./images/travel-lady.svg" alt="Travel lady" /> -->
         </div>
       </section>
     </header>
 
     <!-- main -->
-    <main>
+    <main class="justify-content-center">
+
       <!-- up page btn -->
-      <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="d-none d-lg-block">
         <i class="fa-solid fa-chevron-up"></i>
       </button>
 
@@ -80,23 +83,23 @@
       <section class="category">
         <span class="title"> CATEGORY </span>
         <h2>We Offer Best Services</h2>
-        <img src="./images/plus.svg" alt="plus" class="plus" />
-        <div class="cards">
-          <div class="card">
+        <img src="./images/plus.svg" alt="plus" class="plus d-none d-xl-block" />
+        <div class="cards row justify-content-center">
+          <div class="card col-xl-3 col-lg-6 col-md-12 mr-20">
             <img src="./images/satelite.svg" alt="satelite" />
             <img src="./images/card-pic-back.svg" alt="" id="c1" />
             <span class="card-title"> Calculated Weather </span>
             <p>Built Wicket longer admire do barton vanity itself do in it.</p>
             <img src="./images/card-orange-back.svg" alt="" class="none" />
           </div>
-          <div class="card active-card">
+          <div class="card active-card col-xl-3 col-lg-6 col-md-12 mr-20">
             <img src="./images/plain.svg" alt="plain" id="plain" />
             <img src="./images/card-pic-back.svg" alt="" id="c2" />
             <span class="card-title"> Best Flights </span>
             <p>Engrossed listening. Park gate sell they west hard for the.</p>
             <img src="./images/card-orange-back.svg" alt="" class="none" />
           </div>
-          <div class="card">
+          <div class="card col-xl-3 col-lg-6 col-md-12 mr-20">
             <img src="./images/mic.svg" alt="mic" id="mic" />
             <img src="./images/card-pic-back.svg" alt="" id="c3" />
             <span class="card-title"> Local Events </span>
@@ -106,7 +109,7 @@
             </p>
             <img src="./images/card-orange-back.svg" alt="" class="none" />
           </div>
-          <div class="card">
+          <div class="card col-xl-3 col-lg-6 col-md-12 mr-20">
             <img src="./images/setting.svg" alt="setting" id="setting" />
             <img src="./images/card-pic-back.svg" alt="" id="c4" />
             <span class="card-title"> Customization </span>
@@ -122,8 +125,8 @@
       <section class="top-selling">
         <span class="title"> Top Selling </span>
         <h2>Top Destinations</h2>
-        <div class="cards">
-          <div class="card">
+        <div class="cards row justify-content-center">
+          <div class="card col-xl-4 col-lg-6 col-md-12">
             <img src="images/tour-rome.svg" alt="Rome" />
             <div class="caption">
               <div class="location-prise">
@@ -135,8 +138,8 @@
               </span>
             </div>
           </div>
-          <div class="card">
-            <img src="images/tour-london.svg" alt="London" class="shadow" />
+          <div class="card col-xl-4 col-lg-6 col-md-12">
+            <img src="images/tour-london.svg" alt="London" />
             <div class="caption">
               <div class="location-prise">
                 <span> London, UK </span>
@@ -148,7 +151,7 @@
               </span>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-xl-4 col-lg-6 col-md-12">
             <img src="images/tour-eu.svg" alt="Europe" />
             <div class="caption">
               <div class="location-prise">
@@ -163,16 +166,16 @@
             <img
               src="./images/back-tourcard.svg"
               alt=""
-              class="back-card-sell"
+              class="back-card-sell d-none d-sm-block"
             />
           </div>
         </div>
       </section>
 
       <!-- Easy and Fast -->
-      <section class="easy-and-fast">
-        <div class="left">
-          <span class="title"> &nbsp &nbsp Easy and Fast </span>
+      <section class="easy-and-fast row justify-content-center">
+        <div class="left col-lg-6 col-md-12 justify-content-center">
+          <span class="title"> &nbsp &nbsp Easy and Fast </span> </br>
           <h2>Book Your Next Trip In 3 Easy Steps</h2>
           <div class="steps">
             <div class="step">
@@ -208,7 +211,7 @@
           </div>
         </div>
 
-        <div class="right">
+        <div class="right col-lg-6 col-md-12">
           <div class="big-card">
             <img src="./images/trip-greece.svg" alt="Trip to Greece" />
             <span class="title-right"> Trip To Greece </span>
@@ -228,7 +231,7 @@
               <img src="./icons/like.svg" alt="like" />
             </span>
           </div>
-          <span class="small-card">
+          <span class="small-card d-none d-xl-block">
             <img src="./images/rome-shrine.svg" alt="Rome shrine" />
             <span class="caption-bar">
               <span class="cap-status"> Ongoing </span>
@@ -244,20 +247,20 @@
       </section>
 
       <!-- Testimonials -->
-      <section class="testimonials">
-        <div class="left">
+      <section class="testimonials row justify-content-center">
+        <div class="left col-lg-6 col-md-12 justify-content-center">
           <div class="descreption">
             <span class="title"> Testimonials </span>
             <span class="second-title"> What People Say About Us. </span>
           </div>
-          <div class="buttons">
+          <div class="buttons d-none d-md-block">
             <i class="fa-solid fa-circle btn-active"></i>
             <i class="fa-solid fa-circle"></i>
             <i class="fa-solid fa-circle"></i>
           </div>
         </div>
-        <div class="right">
-          <span class="comments">
+        <div class="right col-lg-6 col-md-12 justify-content-center">
+          <span class="comments justify-content-center">
             <span class="comment active-comment">
               <span class="profile-pic">
                 <img src="./images/comment-pic.svg" alt="picture" />
@@ -283,26 +286,36 @@
               <span class="location"> CEO of Red Button </span>
             </span>
           </span>
-          <div class="comment-button">
+          <span class="comment-button d-none d-md-block">
             <!-- up -->
             <i class="fa-solid fa-chevron-up"></i>
             <!-- down -->
             <i class="fa-solid fa-chevron-down activ-btn"></i>
-          </div>
+          </span>
         </div>
       </section>
 
       <!-- brands -->
-      <section class="brands">
-        <img src="./images/axon.svg" alt="axon" />
-        <img src="./images/jetstar.svg" alt="jetstar" />
-        <img src="./images/expedia.svg" alt="expedia" />
-        <img src="./images/qantas.svg" alt="qantas" />
-        <img src="./images/alitalia.svg" alt="alitalia" />
+      <section class="brands row justify-content-center align-items-center">
+        <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/axon.svg" alt="axon" class=""/>
+        </span>
+        <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/jetstar.svg" alt="jetstar" class=""/>
+        </span>
+        <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/expedia.svg" alt="expedia" />
+        </span>
+        <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/qantas.svg" alt="qantas" />
+        </span>
+        <span class="col-xl-2 col-lg-4 col-md-6 col-sm-12">
+          <img src="./images/alitalia.svg" alt="alitalia" />
+        </span>
       </section>
 
       <!-- Subscribe -->
-      <section class="subscribe">
+      <!-- <section class="subscribe">
         <img src="./images/send-pic.svg" alt="" id="send" />
         <p>
           Subscribe to get information, latest news and other interesting offers
@@ -321,7 +334,7 @@
           </div>
         </form>
         <img src="./images/plus2.svg" alt="" id="p2" />
-      </section>
+      </section> -->
     </main>
 
     <!-- footer -->
