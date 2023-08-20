@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1073.505" height="1013.003" viewBox="0 0 1073.505 1013.003">
+<svg xmlns="http://www.w3.org/2000/svg" width="1073.505" height="989" viewBox="0 0 1073.505 989">
   <g id="Decore" transform="translate(210.054 146)">
     <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="239.472" cy="248.432" rx="239.472" ry="248.432" transform="translate(-60.054 13.572)" fill="#d5aee4" opacity="0.3"/>
-    <path id="Decore-2" data-name="Decore" d="M89.609.476C67.377,71.4,44.4,177.441,97.754,257c66.7,99.449,164.71,94.535,199.049,140.79S295.055,535.5,394.11,581.753,386.227,830.072,505.754,885c95.621,43.943,396.1,129.148,500,127.991V0Z" transform="translate(-142.304 -146)" fill="#fff1da"/>
+    <path id="Decore-2" data-name="Decore" d="M89.609.464C67.377,69.708,44.4,173.235,97.754,250.909,164.451,348,262.464,343.2,296.8,388.362s-1.748,134.444,97.307,179.6,20.117,271.6,139.644,325.224c95.621,42.9,368.1,96.923,472,95.794V0Z" transform="translate(-142.304 -146)" fill="#fff1da"/>
   </g>
 </svg>

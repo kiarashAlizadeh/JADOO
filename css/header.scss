@@ -10,12 +10,18 @@
   justify-content: space-between;
 }
 
+@media only screen and (min-width: 1147px) {
+  .back-head {
+    display: block !important;
+  }
+}
 .back-head img {
   position: absolute;
   top: -166px;
   right: 0px;
   z-index: -1;
 }
+
 // header
 header {
   margin: 20px 40px;
@@ -260,6 +266,11 @@ header {
         }
       }
       z-index: 2;
+    }
+    @media only screen and (min-width: 1147px) {
+      .right img {
+        display: block !important;
+      }
     }
     .right {
       z-index: 2;

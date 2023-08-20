@@ -319,11 +319,15 @@ main {
         }
       }
 
+      @media only screen and (min-width: 1570px) {
+        .small-card {
+          display: block !important;
+        }
+      }
       & .small-card {
         @include flex-row;
         justify-content: flex-start;
         align-items: flex-start;
-
         background-color: white;
         box-shadow: 4px 7px 20px 0px #29292e;
         padding: 20px;

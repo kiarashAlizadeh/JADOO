@@ -18,6 +18,11 @@ ul {
   margin: 0;
 }
 
+@media only screen and (min-width: 1147px) {
+  .back-head {
+    display: block !important;
+  }
+}
 .back-head img {
   position: absolute;
   top: -166px;
@@ -230,6 +235,11 @@ header section .left .header-btn a i {
   color: #df6951;
   font-size: 2.5rem;
   margin-right: 10px;
+}
+@media only screen and (min-width: 1147px) {
+  header section .right img {
+    display: block !important;
+  }
 }
 header section .right {
   z-index: 2;
@@ -531,6 +541,11 @@ main .easy-and-fast .right .big-card .down {
 }
 main .easy-and-fast .right .big-card .down .people-number img {
   margin-right: 7px;
+}
+@media only screen and (min-width: 1570px) {
+  main .easy-and-fast .right .small-card {
+    display: block !important;
+  }
 }
 main .easy-and-fast .right .small-card {
   display: flex;
