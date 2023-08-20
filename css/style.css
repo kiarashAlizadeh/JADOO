@@ -172,10 +172,24 @@ header section .left .describe-header {
     max-width: 85%;
   }
   header section .left #h1-h {
+  header section .left #h1-d {
+    font-size: 1rem;
+    max-width: 85%;
+  }
+  header section .left #h1-h {
     font-size: 2rem;
     text-align: start;
     max-width: 95%;
     margin-bottom: 50px !important;
+    text-align: start;
+    max-width: 95%;
+    margin-bottom: 50px !important;
+  }
+  header section .left #h1-p {
+    font-size: 1rem;
+    text-align: start;
+    max-width: 95%;
+    margin: 0px 0px 35px 0px !important;
   }
   header section .left #h1-p {
     font-size: 1rem;
