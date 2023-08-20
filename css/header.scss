@@ -121,7 +121,7 @@ header {
     transform: rotate(-405deg);
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 909px) {
     .menu-button-container {
       display: flex;
     }
@@ -203,12 +203,12 @@ header {
 
       @media only screen and (max-width: 800px) {
         #h1-d {
-          font-size: 1rem;
+          font-size: 1.5rem;
           max-width: 85%;
           // margin-top: 500px !important;
         }
         #h1-h {
-          font-size: 2rem;
+          font-size: 3.5rem;
           text-align: start;
           max-width: 95%;
           margin-bottom: 50px !important;
