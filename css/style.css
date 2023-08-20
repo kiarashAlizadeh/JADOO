@@ -18,15 +18,16 @@ ul {
   margin: 0;
 }
 
-header {
-  position: relative;
-  @import url(https://fonts.googleapis.com/css?family=Raleway);
-}
-header .back-head img {
+.back-head img {
   position: absolute;
-  top: -163px;
+  top: -166px;
   right: 0px;
-  z-index: 1;
+  z-index: -1;
+}
+
+header {
+  margin: 20px 40px;
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
 }
 header h2 {
   vertical-align: center;
@@ -47,7 +48,7 @@ header .top-nav {
   align-items: center;
   justify-content: space-between;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #000000;
+  color: #212832;
   height: 50px;
   padding: 1em;
 }
@@ -153,7 +154,6 @@ header section {
   margin: -17px 120px;
 }
 header section .left {
-  position: relative;
   z-index: 2;
 }
 header section .left .describe-header {
@@ -161,15 +161,22 @@ header section .left .describe-header {
   font-weight: bold;
   color: #df6951;
 }
-header section .left img {
-  position: absolute;
-  z-index: -1;
-  top: 91px;
-  right: -24px;
-}
 @media only screen and (max-width: 800px) {
-  header section .left .head-header {
+  header section .left #h1-d {
+    font-size: 1rem;
+    max-width: 85%;
+  }
+  header section .left #h1-h {
     font-size: 2rem;
+    text-align: start;
+    max-width: 95%;
+    margin-bottom: 50px !important;
+  }
+  header section .left #h1-p {
+    font-size: 1rem;
+    text-align: start;
+    max-width: 95%;
+    margin: 0px 0px 35px 0px !important;
   }
 }
 header section .left h1 {
@@ -179,6 +186,13 @@ header section .left h1 {
   margin: 14px 0px;
   width: 595px;
   z-index: 2;
+  position: relative;
+}
+header section .left h1 img {
+  position: absolute;
+  z-index: -1;
+  top: 51px;
+  right: -39px;
 }
 header section .left p {
   color: #5e6282;
@@ -219,6 +233,9 @@ header section .left .header-btn a i {
 }
 header section .right {
   z-index: 2;
+}
+header section .right img {
+  float: right;
 }
 
 main section {

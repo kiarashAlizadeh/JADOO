@@ -10,17 +10,15 @@
   justify-content: space-between;
 }
 
+.back-head img {
+  position: absolute;
+  top: -166px;
+  right: 0px;
+  z-index: -1;
+}
 // header
 header {
-  position: relative;
-
-  .back-head img {
-    position: absolute;
-    top: -163px;
-    right: 0px;
-    z-index: 1;
-  }
-
+  margin: 20px 40px;
   // hamburger menue
   @import url(https://fonts.googleapis.com/css?family=Raleway);
   h2 {
@@ -47,7 +45,7 @@ header {
     // background-color: #00baf0;
     // background: linear-gradient(to left, #df6951, #f1a501);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #000000;
+    color: #212832;
     height: 50px;
     padding: 1em;
   }
@@ -189,25 +187,17 @@ header {
     @include flex-row;
     margin: -17px 120px;
     .left {
-      position: relative;
-
       & .describe-header {
         font-size: 1.5rem;
         font-weight: bold;
         color: #df6951;
       }
 
-      img {
-        position: absolute;
-        z-index: -1;
-        top: 100px;
-        right: -206px;
-      }
       @media only screen and (max-width: 800px) {
-        #h1-d{
-            font-size: 1rem;
-            max-width: 85%;
-            // margin-top: 500px !important;
+        #h1-d {
+          font-size: 1rem;
+          max-width: 85%;
+          // margin-top: 500px !important;
         }
         #h1-h {
           font-size: 2rem;
@@ -219,7 +209,7 @@ header {
           font-size: 1rem;
           text-align: start;
           max-width: 95%;
-          margin:  0px 0px 35px 0px !important;
+          margin: 0px 0px 35px 0px !important;
         }
       }
 
@@ -230,6 +220,13 @@ header {
         margin: 14px 0px;
         width: 595px;
         z-index: 2;
+        position: relative;
+        img {
+          position: absolute;
+          z-index: -1;
+          top: 51px;
+          right: -39px;
+        }
       }
       p {
         color: #5e6282;
@@ -266,6 +263,9 @@ header {
     }
     .right {
       z-index: 2;
+      img {
+        float: right;
+      }
     }
   }
 }

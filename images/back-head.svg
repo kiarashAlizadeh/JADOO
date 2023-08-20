@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
-<desc>Created with Fabric.js 5.2.4</desc>
-<defs>
-</defs>
-<g transform="matrix(1 0 0 1 540 540)" id="7bc5a49d-5ddc-4613-8560-68460a8fd737"  >
-</g>
-<g transform="matrix(1 0 0 1 540 540)" id="5608cd4c-7e8a-419f-8650-c5253136f388"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
-</g>
-<g transform="matrix(1.41 0 0 1.41 596.61 348.07)"  >
-<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,241,218); fill-rule: nonzero; opacity: 1;"  transform=" translate(-383.15, -436.29)" d="M 22.307 101 C 5.474 162.333 -18.093 302.2 22.307 371 C 72.807 457 192.807 438.5 218.807 478.5 C 244.807 518.5 201.807 624 276.807 664 C 351.807 704 310.807 780.5 401.307 828 C 473.707 866 649.14 873.5 727.807 872.5 L 766.307 271.5 L 701.807 0 Z" stroke-linecap="round" />
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1073.505" height="1013.003" viewBox="0 0 1073.505 1013.003">
+  <g id="Decore" transform="translate(210.054 146)">
+    <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="239.472" cy="248.432" rx="239.472" ry="248.432" transform="translate(-60.054 13.572)" fill="#d5aee4" opacity="0.3"/>
+    <path id="Decore-2" data-name="Decore" d="M89.609.476C67.377,71.4,44.4,177.441,97.754,257c66.7,99.449,164.71,94.535,199.049,140.79S295.055,535.5,394.11,581.753,386.227,830.072,505.754,885c95.621,43.943,396.1,129.148,500,127.991V0Z" transform="translate(-142.304 -146)" fill="#fff1da"/>
+  </g>
 </svg>
