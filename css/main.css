@@ -9,8 +9,8 @@ main #myBtn {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #14183e;
-  color: white;
+  background-color: #181e4b;
+  color: #ffffff;
   cursor: pointer;
   padding: 15px;
   border-radius: 50px;
@@ -31,7 +31,7 @@ main .category .title {
   font-size: 1rem;
 }
 main .category h2 {
-  color: #14183e;
+  color: #181e4b;
   font-size: 3.5rem;
   font-weight: bolder;
   margin-top: 25px;
@@ -76,7 +76,7 @@ main .category .cards .card #setting {
   width: 50px;
 }
 main .category .cards .card .card-title {
-  color: #1e1d4c;
+  color: #181e4b;
   font-size: 1.5rem;
   margin: 25px 0px;
 }
@@ -117,7 +117,7 @@ main .category .cards .card .none {
   z-index: -1;
 }
 main .category .cards .card:hover {
-  background-color: rgba(233, 233, 233, 0.885);
+  background-color: rgba(233, 233, 233, 0.8862745098);
   z-index: 1;
 }
 main .category .cards .card:hover img.none {
@@ -125,8 +125,8 @@ main .category .cards .card:hover img.none {
   z-index: -1;
 }
 main .category .cards .active-card {
-  background-color: rgba(233, 233, 233, 0.885);
-  box-shadow: 9px 12px 20px 3px rgba(0, 0, 0, 0.216);
+  background-color: rgba(233, 233, 233, 0.8862745098);
+  box-shadow: 9px 12px 20px 3px rgba(0, 0, 0, 0.2156862745);
   z-index: 1;
 }
 main .category .cards .active-card img.none {
@@ -145,7 +145,7 @@ main .top-selling .title {
   font-size: 1rem;
 }
 main .top-selling h2 {
-  color: #14183e;
+  color: #181e4b;
   font-size: 3.5rem;
   font-weight: bolder;
   margin-top: 25px;
@@ -184,7 +184,7 @@ main .top-selling .cards .card .caption {
   border-radius: 0px 0px 26px 26px;
   margin: 20px 0px;
   padding: 0px 30px;
-  box-shadow: 6px 11px 20px 11px rgba(0, 0, 0, 0.216);
+  box-shadow: 6px 11px 20px 11px rgba(0, 0, 0, 0.2156862745);
 }
 main .top-selling .cards .card .caption .location-prise {
   display: flex;
@@ -220,7 +220,7 @@ main .easy-and-fast .title {
   font-size: 1.2rem;
 }
 main .easy-and-fast .left h2 {
-  color: #14183e;
+  color: #181e4b;
   font-size: 3rem;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -259,7 +259,7 @@ main .easy-and-fast .right .big-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: #ffffff;
   padding: 26px;
   border-radius: 34px;
   box-shadow: 11px -20px 20px 4px #a0dbff;
@@ -271,7 +271,7 @@ main .easy-and-fast .right .big-card .title-right {
   margin-bottom: 9px;
 }
 main .easy-and-fast .right .big-card .date {
-  color: #84829a;
+  color: #5e6282;
   font-size: 1rem;
   margin-bottom: 10px;
 }
@@ -304,7 +304,7 @@ main .easy-and-fast .right .small-card {
   align-items: center;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: white;
+  background-color: #ffffff;
   box-shadow: 4px 7px 20px 0px #29292e;
   padding: 20px;
   width: 280px;
@@ -320,7 +320,7 @@ main .easy-and-fast .right .small-card .caption-bar {
   margin-left: 10px;
 }
 main .easy-and-fast .right .small-card .caption-bar .cap-status {
-  color: #84829a;
+  color: #5e6282;
   font-size: 1rem;
 }
 main .easy-and-fast .right .small-card .caption-bar .cap-title {
@@ -368,7 +368,7 @@ main .testimonials .left .descreption .title {
   }
 }
 main .testimonials .left .descreption .second-title {
-  color: #14183e;
+  color: #181e4b;
   font-size: 3rem;
   font-weight: bolder;
   width: 365px;
@@ -383,11 +383,11 @@ main .testimonials .left .buttons {
   justify-content: flex-start;
 }
 main .testimonials .left .buttons .btn-active {
-  color: #39425d;
+  color: #5e6282;
 }
 main .testimonials .left .buttons i {
   margin-right: 20px;
-  color: #e5e5e5;
+  color: #bcb7c2;
   cursor: pointer;
 }
 main .testimonials .right {
@@ -520,11 +520,11 @@ main .subscribe form input {
 main .subscribe form .icon {
   background: url("../icons/email.svg") no-repeat left;
   background-size: 20px;
-  background-color: white;
+  background-color: #ffffff;
 }
 main .subscribe form button {
   background-color: #e66465;
-  color: white;
+  color: #ffffff;
   border: none;
   padding: 16px 26px;
   border-radius: 10px;

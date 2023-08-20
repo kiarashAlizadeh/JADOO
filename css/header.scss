@@ -1,3 +1,5 @@
+@import './var.scss';
+
 @mixin flex-row {
   display: flex;
   flex-direction: row;
@@ -51,7 +53,7 @@ header {
     // background-color: #00baf0;
     // background: linear-gradient(to left, #df6951, #f1a501);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #212832;
+    color: $dark-gray;
     height: 50px;
     padding: 1em;
   }
@@ -87,7 +89,7 @@ header {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: $header-menu-bg;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -111,7 +113,7 @@ header {
   }
 
   #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
+    background: #ffffff00;
   }
 
   #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -152,12 +154,12 @@ header {
       margin: 0;
       padding: 0.5em 0;
       width: 100%;
-      color: white;
-      background-color: #2f5c6c;
+      color: $white;
+      background-color: $header-menu-bg-li;
       z-index: 4;
     }
     .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
+      border-bottom: 1px solid $light-gray-border;
     }
   }
 
@@ -196,7 +198,7 @@ header {
       & .describe-header {
         font-size: 1.5rem;
         font-weight: bold;
-        color: #df6951;
+        color: $light-orange;
       }
 
       @media only screen and (max-width: 800px) {
@@ -220,7 +222,7 @@ header {
       }
 
       h1 {
-        color: #181e4b;
+        color: $mid-dark-blue;
         font-size: 5rem;
         font-weight: bolder;
         margin: 14px 0px;
@@ -235,7 +237,7 @@ header {
         }
       }
       p {
-        color: #5e6282;
+        color: $light-gray;
         width: 450px;
         font-size: 1rem;
         margin: 100px 0px 40px 0px;
@@ -244,8 +246,8 @@ header {
         @include flex-row;
         justify-content: flex-start;
         & button {
-          color: white;
-          background-color: #f1a501;
+          color: $white;
+          background-color: $yelow;
           padding: 15px 20px;
           border-radius: 10px;
           margin-right: 40px;
@@ -257,9 +259,9 @@ header {
         a {
           @include flex-row;
           justify-content: flex-start;
-          color: #686d77;
+          color: $light-gray;
           i {
-            color: #df6951;
+            color: $light-orange;
             font-size: 2.5rem;
             margin-right: 10px;
           }
