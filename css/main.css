@@ -16,7 +16,7 @@ main #myBtn {
   border-radius: 50px;
   font-size: 1.5rem;
 }
-main #myBtn :hover {
+main #myBtn:hover {
   background-color: #555;
 }
 main .category {

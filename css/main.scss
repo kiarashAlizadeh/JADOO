@@ -34,9 +34,9 @@ main {
     padding: 15px;
     border-radius: 50px;
     font-size: 1.5rem;
-    & :hover {
-      background-color: $main-btn-gray;
-    }
+  }
+  #myBtn:hover {
+    background-color: $main-btn-gray;
   }
 
   // Category
