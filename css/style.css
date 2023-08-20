@@ -143,7 +143,7 @@ header #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
+    color: #ffffff;
     background-color: #2f5c6c;
     z-index: 4;
   }
@@ -172,24 +172,10 @@ header section .left .describe-header {
     max-width: 85%;
   }
   header section .left #h1-h {
-  header section .left #h1-d {
-    font-size: 1rem;
-    max-width: 85%;
-  }
-  header section .left #h1-h {
     font-size: 2rem;
     text-align: start;
     max-width: 95%;
     margin-bottom: 50px !important;
-    text-align: start;
-    max-width: 95%;
-    margin-bottom: 50px !important;
-  }
-  header section .left #h1-p {
-    font-size: 1rem;
-    text-align: start;
-    max-width: 95%;
-    margin: 0px 0px 35px 0px !important;
   }
   header section .left #h1-p {
     font-size: 1rem;
@@ -227,7 +213,7 @@ header section .left .header-btn {
   justify-content: flex-start;
 }
 header section .left .header-btn button {
-  color: white;
+  color: #ffffff;
   background-color: #f1a501;
   padding: 15px 20px;
   border-radius: 10px;
@@ -243,7 +229,7 @@ header section .left .header-btn a {
   justify-content: space-between;
   align-items: center;
   justify-content: flex-start;
-  color: #686d77;
+  color: #5e6282;
 }
 header section .left .header-btn a i {
   color: #df6951;
