@@ -1,3 +1,5 @@
+@import './var.scss';
+
 @mixin flex-row {
   display: flex;
   flex-direction: row;
@@ -26,14 +28,14 @@ main {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #14183e;
-    color: white;
+    background-color: $mid-dark-blue;
+    color: $white;
     cursor: pointer;
     padding: 15px;
     border-radius: 50px;
     font-size: 1.5rem;
     & :hover {
-      background-color: #555;
+      background-color: $main-btn-gray;
     }
   }
 
@@ -44,12 +46,12 @@ main {
     position: relative;
     // margin: 100px 60px;
     & .title {
-      color: #5e6282;
+      color: $light-gray;
       font-size: 1rem;
     }
 
     h2 {
-      color: #14183e;
+      color: $mid-dark-blue;
       font-size: 3.5rem;
       font-weight: bolder;
       margin-top: 25px;
@@ -94,13 +96,13 @@ main {
         }
 
         & .card-title {
-          color: #1e1d4c;
+          color: $mid-dark-blue;
           font-size: 1.5rem;
           margin: 25px 0px;
         }
 
         p {
-          color: #5e6282;
+          color: $light-gray;
           width: 170px;
           z-index: 1;
         }
@@ -142,7 +144,7 @@ main {
         }
 
         &:hover {
-          background-color: rgba(233, 233, 233, 0.885);
+          background-color: $main-card-bg;
           z-index: 1;
 
           img {
@@ -155,8 +157,8 @@ main {
       }
 
       & .active-card {
-        background-color: rgba(233, 233, 233, 0.885);
-        box-shadow: 9px 12px 20px 3px rgba(0, 0, 0, 0.216);
+        background-color: $main-card-bg;
+        box-shadow: 9px 12px 20px 3px $main-active-card;
         z-index: 1;
 
         img {
@@ -177,12 +179,12 @@ main {
     // margin: 100px 0px;
 
     & .title {
-      color: #5e6282;
+      color: $light-gray;
       font-size: 1rem;
     }
 
     h2 {
-      color: #14183e;
+      color: $mid-dark-blue;
       font-size: 3.5rem;
       font-weight: bolder;
       margin-top: 25px;
@@ -210,7 +212,7 @@ main {
           position: absolute;
           bottom: 0px;
 
-          background-color: #ffffff;
+          background-color: $white;
           width: 100%;
           height: 22%;
           border-radius: 0px 0px 26px 26px;
@@ -218,7 +220,7 @@ main {
           margin: 20px 0px;
           padding: 0px 30px;
 
-          box-shadow: 6px 11px 20px 11px rgba(0, 0, 0, 0.216);
+          box-shadow: 6px 11px 20px 11px $main-caption;
 
           & .location-prise {
             @include flex-row;
@@ -246,7 +248,7 @@ main {
   // Easy and Fast
   .easy-and-fast {
     & .title {
-      color: #5e6282;
+      color: $light-gray;
       font-size: 1.2rem;
     }
 
@@ -254,7 +256,7 @@ main {
     justify-content: center;
     & .left {
       h2 {
-        color: #14183e;
+        color: $mid-dark-blue;
         font-size: 3rem;
         // width: 60%;
         margin-top: 30px;
@@ -288,19 +290,19 @@ main {
       position: relative;
       & .big-card {
         @include flex-column;
-        background-color: white;
+        background-color: $white;
         padding: 26px;
         border-radius: 34px;
-        box-shadow: 11px -20px 20px 4px #a0dbff;
+        box-shadow: 11px -20px 20px 4px $main-big-card;
 
         & .title-right {
-          color: #080809;
+          color: $black;
           font-size: 1.4rem;
           margin-top: 21px;
           margin-bottom: 9px;
         }
         & .date {
-          color: #84829a;
+          color: $light-gray;
           font-size: 1rem;
           margin-bottom: 10px;
         }
@@ -328,8 +330,8 @@ main {
         @include flex-row;
         justify-content: flex-start;
         align-items: flex-start;
-        background-color: white;
-        box-shadow: 4px 7px 20px 0px #29292e;
+        background-color: $white;
+        box-shadow: 4px 7px 20px 0px $main-small-card;
         padding: 20px;
         width: 280px;
         border-radius: 16px;
@@ -341,22 +343,22 @@ main {
           @include flex-column;
           margin-left: 10px;
           & .cap-status {
-            color: #84829a;
+            color: $light-gray;
             font-size: 1rem;
           }
           & .cap-title {
-            color: #080809;
+            color: $black;
             margin: 7px 0px;
             font-size: 1.3rem;
           }
           & .status-bar {
             margin-bottom: 10px;
             & .cap-persent {
-              color: #8a79df;
+              color: $light-purpule;
             }
           }
           img {
-            border: 1px solid #938a8a;
+            border: 1px solid $border-gray;
             border-radius: 5px;
           }
         }
@@ -377,7 +379,7 @@ main {
         @include flex-column;
 
         & .title {
-          color: #5e6282;
+          color: $light-gray;
           font-size: 1.3rem;
           margin-bottom: 15px;
         }
@@ -388,7 +390,7 @@ main {
           }
         }
         & .second-title {
-          color: #14183e;
+          color: $mid-dark-blue;
           font-size: 3rem;
           font-weight: bolder;
           width: 365px;
@@ -402,12 +404,12 @@ main {
         justify-content: flex-start;
 
         & .btn-active {
-          color: #39425d;
+          color: $light-gray;
         }
 
         i {
           margin-right: 20px;
-          color: #e5e5e5;
+          color: $i-btn;
           cursor: pointer;
         }
       }
@@ -426,14 +428,14 @@ main {
             top: 120px;
             left: -38px;
             z-index: 2;
-            background-color: #ffffff !important;
-            box-shadow: 12px 15px 20px 5px #0000008c;
+            background-color: $white !important;
+            box-shadow: 12px 15px 20px 5px $main-active-comment;
           }
         }
         @media only screen and (max-width: 800px) {
           .active-comment {
-            background-color: #ffffff !important;
-            border: 1px solid #0000008c;
+            background-color: $white !important;
+            border: 1px solid $main-active-comment;
             margin-bottom: 46px;
             margin-top: 55px;
           }
@@ -445,7 +447,7 @@ main {
 
         & .comment {
           @include flex-column;
-          background-color: #bccbd8;
+          background-color: $main-comment-bg;
           max-width: 475px;
           border-radius: 18px;
           padding: 30px;
@@ -462,20 +464,20 @@ main {
           }
 
           q {
-            color: #5e6282;
+            color: $light-gray;
             font-size: 1.1rem;
             margin-bottom: 33px;
           }
 
           & .name {
-            color: #5e6282;
+            color: $light-gray;
             font-size: 1.1rem;
             margin-bottom: 10px;
             font-weight: bold;
           }
 
           & .location {
-            color: #5e6282;
+            color: $light-gray;
             font-size: 1rem;
             font-weight: normal;
           }
@@ -488,11 +490,11 @@ main {
         margin-left: 55px;
 
         & .activ-btn {
-          color: #3e2e4d;
+          color: $mid-dark-purpule;
         }
 
         i {
-          color: #bcb7c2;
+          color: $i-btn;
           margin: 23px 0px;
           font-size: 1.6rem;
           font-weight: bolder;
@@ -540,7 +542,7 @@ main {
       right: 289px;
     }
     p {
-      color: #ffffff;
+      color: $white;
       font-size: 2.3rem;
       margin-bottom: 71px;
       text-align: center;
@@ -559,11 +561,11 @@ main {
       .icon {
         background: url('../icons/email.svg') no-repeat left;
         background-size: 20px;
-        background-color: white;
+        background-color: $white;
       }
       button {
-        background-color: #e66465;
-        color: white;
+        background-color: $btn-form;
+        color: $white;
         border: none;
         padding: 16px 26px;
         border-radius: 10px;
