@@ -1,38 +1,5 @@
+@import './mixin.scss';
 @import './var.scss';
-
-@mixin flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@mixin flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-@mixin footer-titles {
-  @include flex-column;
-  //   margin: 0px 25px;
-
-  & .mid-title {
-    color: $black;
-    font-size: 1.4rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-    text-align: center;
-  }
-
-  a {
-    margin-bottom: 10px;
-    color: $light-gray;
-    font-size: 1.1rem;
-    text-align: center;
-  }
-}
 
 // footer
 footer {

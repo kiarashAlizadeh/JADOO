@@ -1,17 +1,5 @@
+@import './mixin.scss';
 @import './var.scss';
-
-@mixin flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@mixin flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 // main
 main {
