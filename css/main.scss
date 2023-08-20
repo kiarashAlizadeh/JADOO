@@ -522,7 +522,18 @@ main {
     //       }
     // }
   }
-
+  @media only screen and (max-width: 999px) {
+    .subscribe {
+      margin: 0px 10px;
+      border-radius: 20px;
+    }
+  }
+  @media only screen and (min-width: 1000px) and (max-width: 1399px) {
+    .subscribe {
+      margin: 0px 10px !important;
+      border-radius: 20px !important;
+    }
+  }
   // Subscribe
   .subscribe {
     @include flex-column;
@@ -536,24 +547,43 @@ main {
     background-position: center;
     position: relative;
     // margin: 125px 0px;
+
+    @media only screen and (min-width: 1491px) {
+      #send {
+        display: block !important;
+      }
+      #p2 {
+        display: block !important;
+      }
+    }
+
     #send {
       position: absolute;
       top: -16px;
-      right: 289px;
+      right: -15px;
+      display: none;
+    }
+    @media only screen and (max-width: 999px) {
+      #p-s {
+        font-size: 1.3rem;
+        margin-bottom: 28px;
+        max-width: 95%;
+      }
     }
     p {
       color: $white;
       font-size: 2.3rem;
       margin-bottom: 71px;
       text-align: center;
-      width: 758px;
+      max-width: 758px;
     }
     form {
       @include flex-row;
       position: relative;
       input {
         padding: 16px 27px;
-        width: 300px;
+        // max-width: 300px;
+        max-width: 80%;
         margin-right: 20px;
         border-radius: 5px;
         border: none;
@@ -571,13 +601,15 @@ main {
         border-radius: 10px;
         font-weight: bolder;
         font-size: 1.1rem;
+        max-width: 30%;
       }
     }
 
     #p2 {
       position: absolute;
       bottom: -68px;
-      right: 213px;
+      right: -94px;
+      display: none;
     }
   }
 }
