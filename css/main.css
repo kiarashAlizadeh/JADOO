@@ -1,3 +1,9 @@
+.active {
+  display: block !important;
+  animation-name: rubberBand;
+  animation-duration: 1s;
+}
+
 main section {
   margin: 77px 0px;
 }
@@ -345,6 +351,7 @@ main .testimonials {
   align-items: center;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 main .testimonials .left {
   display: flex;
@@ -466,6 +473,11 @@ main .testimonials .right .comments .comment .location {
   color: #5e6282;
   font-size: 1rem;
   font-weight: normal;
+}
+@media only screen and (min-width: 800px) {
+  main .testimonials .right .active-c-b {
+    display: block !important;
+  }
 }
 main .testimonials .right .comment-button {
   display: flex;

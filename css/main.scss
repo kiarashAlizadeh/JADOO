@@ -1,6 +1,12 @@
 @import './mixin.scss';
 @import './var.scss';
 
+.active {
+  display: block !important;
+  animation-name: rubberBand;
+  animation-duration: 1s;
+}
+
 // main
 main {
   section {
@@ -359,6 +365,7 @@ main {
     @include flex-row;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     // margin: 65px 0px;
     & .left {
       @include flex-column;
@@ -481,7 +488,11 @@ main {
           }
         }
       }
-
+      @media only screen and (min-width: 800px) {
+        .active-c-b {
+          display: block !important;
+        }
+      }
       & .comment-button {
         @include flex-column;
         align-items: center;
