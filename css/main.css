@@ -403,11 +403,25 @@ main .testimonials .right .comments {
 @media only screen and (min-width: 800px) {
   main .testimonials .right .comments .active-comment {
     position: absolute;
-    top: 120px;
-    left: -38px;
+    top: 135px;
+    left: -50px;
     z-index: 2;
     background-color: #ffffff !important;
     box-shadow: 12px 15px 20px 5px rgba(0, 0, 0, 0.5490196078);
+  }
+  main .testimonials .right .comments .profile-pic {
+    position: absolute;
+    top: -42px;
+    left: -40px;
+  }
+  main .testimonials .right .comments .profile-pic img {
+    border-radius: 88px;
+    width: 85px;
+    height: 85px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 25% 25%;
+       object-position: 25% 25%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -416,10 +430,6 @@ main .testimonials .right .comments {
     border: 1px solid rgba(0, 0, 0, 0.5490196078);
     margin-bottom: 46px;
     margin-top: 55px;
-  }
-  main .testimonials .right .comments .profile-pic {
-    top: -42px !important;
-    left: 10px !important;
   }
 }
 main .testimonials .right .comments .comment {
@@ -432,14 +442,14 @@ main .testimonials .right .comments .comment {
   padding: 30px;
   position: relative;
 }
-main .testimonials .right .comments .comment .profile-pic {
-  position: absolute;
-  top: -42px;
-  left: -40px;
-}
 main .testimonials .right .comments .comment .profile-pic img {
   border-radius: 88px;
-  width: 76px;
+  width: 85px;
+  height: 85px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 25% 25%;
+     object-position: 25% 25%;
 }
 main .testimonials .right .comments .comment q {
   color: #5e6282;

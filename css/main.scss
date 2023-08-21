@@ -413,11 +413,24 @@ main {
         @media only screen and (min-width: 800px) {
           .active-comment {
             position: absolute;
-            top: 120px;
-            left: -38px;
+            top: 135px;
+            left: -50px;
             z-index: 2;
             background-color: $white !important;
             box-shadow: 12px 15px 20px 5px $main-active-comment;
+          }
+          & .profile-pic {
+            position: absolute;
+            top: -42px;
+            left: -40px;
+            img {
+              border-radius: 88px;
+              // width: 76px;
+              width: 85px;
+              height: 85px;
+              object-fit: cover;
+              object-position: 25% 25%;
+            }
           }
         }
         @media only screen and (max-width: 800px) {
@@ -426,10 +439,6 @@ main {
             border: 1px solid $main-active-comment;
             margin-bottom: 46px;
             margin-top: 55px;
-          }
-          .profile-pic {
-            top: -42px !important;
-            left: 10px !important;
           }
         }
 
@@ -442,12 +451,13 @@ main {
           position: relative;
 
           & .profile-pic {
-            position: absolute;
-            top: -42px;
-            left: -40px;
             img {
               border-radius: 88px;
-              width: 76px;
+              // width: 76px;
+              width: 85px;
+              height: 85px;
+              object-fit: cover;
+              object-position: 25% 25%;
             }
           }
 

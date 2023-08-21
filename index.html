@@ -7,7 +7,10 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./css/dist/bootstrap.min.css" />
+
+    <!-- css minified -->
     <link rel="stylesheet" href="./css/style.min.css" />
+
     <!-- icon -->
     <link rel="icon" type="image/x-icon" href="./icons/jadoo.svg" />
   </head>
@@ -280,9 +283,9 @@
           </div>
           <div class="right col-lg-6 col-md-12 justify-content-center">
             <span class="comments justify-content-center">
-              <span class="comment active-comment">
+              <span class="comment active-comment" id="comment-1">
                 <span class="profile-pic">
-                  <img src="./images/comment-pic.svg" alt="picture" />
+                  <img src="./images/profile-comment1.webp" alt="picture" />
                 </span>
                 <q>
                   On the Windows talking painted pasture yet its express parties
@@ -292,14 +295,15 @@
                 <span class="name"> Mike taylor </span>
                 <span class="location"> Lahore, Pakistan </span>
               </span>
-              <span class="comment">
+              <span class="comment" id="comment-2">
                 <span class="profile-pic">
-                  <img src="./images/comment-pic.svg" alt="picture" />
+                  <img src="./images/profile-comment2.webp" alt="picture" />
                 </span>
                 <q>
-                  On the Windows talking painted pasture yet its express parties
-                  use. Sure last upon he same as knew next. Of believed or
-                  diverted no.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae velit aperiam doloremque. Optio, eos quod! Animi,
+                  eius totam iure blanditiis modi voluptates accusantium
+                  repellat molestiae maiores tenetur facilis sint aliquam.
                 </q>
                 <span class="name"> Chris Thomas </span>
                 <span class="location"> CEO of Red Button </span>
@@ -307,9 +311,12 @@
             </span>
             <span class="comment-button d-none d-md-block">
               <!-- up -->
-              <i class="fa-solid fa-chevron-up"></i>
+              <i class="fa-solid fa-chevron-up" id="up-chevron-comment"></i>
               <!-- down -->
-              <i class="fa-solid fa-chevron-down activ-btn"></i>
+              <i
+                class="fa-solid fa-chevron-down activ-btn"
+                id="down-chevron-comment"
+              ></i>
             </span>
           </div>
         </section>
@@ -413,8 +420,8 @@
       </footer>
     </div>
 
-    <!-- up page btn script -->
-    <script src="./js/up-page-btn.js"></script>
+    <!-- minified script -->
+    <script src="./js.min.js"></script>
 
     <!-- fontawesome -->
     <script
